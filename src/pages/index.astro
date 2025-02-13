@@ -1,16 +1,44 @@
 ---
-
+	import "../global.css";
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-black">
+		<header class="m-5">
+			<nav class="flex justify-around gap-5 ">
+				<div class="nav-item">Home</div>
+				<div class="nav-item">Blog</div>
+			</nav>
+		</header>
+		<main class="m-5">
+			<section 
+			class="flex justify-between p-5
+			max-sm:flex-col max-sm:items-center">
+
+				<!-- TODO: Logo Pingubot -->
+				<div class="">
+					<img 
+						src="https://shop.astro.build/.netlify/images?url=https%3A%2F%2Fshop.astro.build%2Fassets%2Fastro-icon-sticker.png&w=724&h=724" 
+						alt=""
+						class="w-50 p-5">
+				</div> 
+				<!-- TODO: Texto Pingubot -->
+				 <div class="p-2.5 flex flex-col justify-around flex-1 min-w-10 flex-wrap">
+					<h2 class="font-bold text-2xl italic text-white">PinguBot</h2>
+					<p class="text-pretty text-white ">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam officia impedit nostrum mollitia reiciendis id esse? Cum maiores atque nulla hic rerum. Nam perferendis ullam vel laboriosam, animi explicabo nemo!
+					</p>
+				 </div>
+			</section>
+
+			<!--* { ------- } -->
+		</main>
 	</body>
 </html>

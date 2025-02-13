@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/*?  Home | Header*/
+
+.nav-item {
+    color: white;
+    padding: .25em;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px white solid;
+    border-radius: .5em;
+    width: 100%;
+    text-align: center;
+}
