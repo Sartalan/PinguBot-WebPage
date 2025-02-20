@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 
 import "../global.css";
 import Nav from "../components/Nav.astro";
+import FooterBtn from "../components/FooterBtn.astro";
 
 // import myimage = url_imagen
 ---
@@ -13,7 +14,10 @@ import Nav from "../components/Nav.astro";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
 		<title>Astro</title>
 	</head>
 	<body class="bg-black">
@@ -93,30 +97,26 @@ import Nav from "../components/Nav.astro";
 
 					<div class="flex justify-center items-center">
 						<a
-							class="text-center text-white text-3xl p-5 m-10 hover:bg-red-400 rounded"
+							class="text-center text-white text-3xl p-5 m-10 hover:bg-red-300 h rounded"
 							href="#"
 						>
-							Buy me a coffee</a
-						>
-						<i class="bi bi-cup-hot-fill text-white  text-5xl"></i>
+							Buy me a coffee
 
-						
+							<i class="bi bi-cup-hot-fill text-white text-5xl"
+							></i>
+						</a>
 					</div>
+					<footer class="m-1.5">
+						<div class="">
+							<FooterBtn
+								text="Curriculum"
+								icon="bi bi-file-earmark-person-fill"
+							/>
+							<FooterBtn text="Github" icon="bi bi-github" />
+							<FooterBtn text="Linkedin" icon="bi bi-linkedin" />
+						</div>
+					</footer>
 				</article>
-				<footer class="m-1.5">
-					<div class="footer-content">
-						<a href="#" class="text-white text-2xl text-center"
-							>Portfolio</a
-						>
-						
-						<a href="#" class="text-white text-2xl text-center"
-							>Github</a
-						>
-						<a href="#" class="text-white text-2xl text-center"
-							>Linkedin</a
-						>
-					</div>
-				</footer>
 			</section>
 		</main>
 	</body>

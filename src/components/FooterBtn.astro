@@ -1,0 +1,20 @@
+---
+interface Props {
+    icon?: string;
+    text?: string;
+}
+
+const { icon, text } = Astro.props;
+
+// Meter props dentro de una clase HTML se llama
+// "Interpolación Directa"
+---
+
+<a
+    class="p-2 bg-blue-1000 inline-block hover:bg-red-300 
+    cursor-pointer text-white text-2xl text-center hover:text-black rounded"
+    href="#"
+>
+    {text}
+    <i class={`text-2xl text-white ${icon}`}></i>
+</a>
