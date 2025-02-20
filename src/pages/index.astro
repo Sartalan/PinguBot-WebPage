@@ -1,44 +1,118 @@
 ---
-	import "../global.css";
+import { Image } from "astro:assets";
+import "../global.css";
+
+import Nav from "../components/Nav.astro";
+
+// import myimage = url_imagen
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-    	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
 	<body class="bg-black">
-		<header class="m-5">
-			<nav class="flex justify-around gap-5 ">
-				<div class="nav-item">Home</div>
-				<div class="nav-item">Blog</div>
-			</nav>
-		</header>
+		<Nav />
 		<main class="m-5">
-			<section 
-			class="flex justify-between p-5
-			max-sm:flex-col max-sm:items-center">
+			<section>
+				<!--* { ----HauptContent--- } -->
+				<article
+					class="flex justify-between items-center p-5
+				max-sm:flex-col max-sm:items-center"
+				>
+					<!-- TODO: Logo Pingubot -->
+					<div class="">
+						<Image
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuEEoZ9bfO0kSXaIic5NFpGHRHLAwrD31IA&s"
+							alt=""
+							width={75}
+							height={75}
+							class="w-50 p-5"
+						/>
+					</div>
+					<!-- TODO: Texto Pingubot -->
+					<div
+						class="p-2.5 flex flex-col justify-around flex-1 min-w-10 flex-wrap"
+					>
+						<h2 class="font-bold m-1.5 text-4xl italic text-white">
+							PinguBot
+						</h2>
+						<p class="text-pretty text-white text-2xl">
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Aperiam officia impedit nostrum mollitia
+							reiciendis id esse? Cum maiores atque nulla hic
+							rerum. Nam perferendis ullam vel laboriosam, animi
+							explicabo nemo!
+						</p>
+					</div>
+				</article>
+				<hr class="h-1 bg-amber-700" />
+				<!--* { ---- Content --- } -->
+				<article class="flex flex-col">
+					<div class="one p-5">
+						<h2 class="font-bold m-1.5 text-4xl italic text-white">
+							¿Why?
+						</h2>
+						<p class="text-pretty text-white text-2xl">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Adipisci voluptatum minima quaerat explicabo
+							voluptates quibusdam repellendus, ipsa hic dolorem
+							numquam est recusandae autem exercitationem
+							inventore reprehenderit voluptatibus nisi possimus
+							minus!
+						</p>
+					</div>
+					<div class="two p-5">
+						<h2 class="font-bold m-1.5 text-4xl italic text-white">
+							Me
+						</h2>
+						<p class="text-pretty text-white text-2xl">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Adipisci voluptatum minima quaerat explicabo
+							voluptates quibusdam repellendus, ipsa hic dolorem
+							numquam est recusandae autem exercitationem
+							inventore reprehenderit voluptatibus nisi possimus
+							minus!
+						</p>
+					</div>
+				</article>
+				<!--* If you want... -->
+				<hr class="h-1 bg-amber-700" />
 
-				<!-- TODO: Logo Pingubot -->
-				<div class="">
-					<img 
-						src="https://shop.astro.build/.netlify/images?url=https%3A%2F%2Fshop.astro.build%2Fassets%2Fastro-icon-sticker.png&w=724&h=724" 
-						alt=""
-						class="w-50 p-5">
-				</div> 
-				<!-- TODO: Texto Pingubot -->
-				 <div class="p-2.5 flex flex-col justify-around flex-1 min-w-10 flex-wrap">
-					<h2 class="font-bold text-2xl italic text-white">PinguBot</h2>
-					<p class="text-pretty text-white ">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam officia impedit nostrum mollitia reiciendis id esse? Cum maiores atque nulla hic rerum. Nam perferendis ullam vel laboriosam, animi explicabo nemo!
-					</p>
-				 </div>
+				<article>
+					<h2
+						class="font-bold m-1.5 text-4xl italic text-white text-center"
+					>
+						If for some reason...
+					</h2>
+
+					<div class="flex justify-center items-center">
+						<a
+							class="text-center text-white text-3xl p-5 m-10 hover:bg-red-400 rounded"
+							href="#"
+						>
+							Buy me a coffee</a
+						>
+					</div>
+				</article>
+				<footer class="m-1.5">
+					<div class="footer-content">
+						<a href="#" class="text-white text-2xl text-center"
+							>Portfolio</a
+						>
+						<a href="#" class="text-white text-2xl text-center"
+							>Github</a
+						>
+						<a href="#" class="text-white text-2xl text-center"
+							>Linkedin</a
+						>
+					</div>
+				</footer>
 			</section>
-
-			<!--* { ------- } -->
 		</main>
 	</body>
 </html>
