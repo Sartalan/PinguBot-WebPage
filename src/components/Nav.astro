@@ -1,9 +1,37 @@
 ---
+
 ---
 
+<script>
+    let btn = document.getElementById("btn");
+    let open:boolean = false;
+
+    function openNav() {
+        console.log("Abrí la Nav")
+        btn?.classList.add("puto")
+    }
+
+    function closeNav(){
+        console.log("cerré la nav xd")
+        btn?.classList.remove("puto")
+    }
+
+    btn?.addEventListener('click', () => {
+        open = (!open);
+        console.log(open);
+
+        open == true ? closeNav() 
+        : openNav()
+    })
+</script>
 
 <header class="m-5">
-    <nav class="flex justify-around gap-5">
+    <nav class="flex justify-around gap-5
+    
+    max-md:bg-blue-900">
+        <button id="btn">
+            <i class="bi bi-list text-white text-5xl"></i>
+        </button>
         <a href="#" class="nav-item hover:bg-violet-800">Home</a>
         <a href="/blog" class="nav-item hover:bg-violet-800">Blog</a>
         <a href="/project" class="nav-item hover:bg-violet-800">Project</a>
