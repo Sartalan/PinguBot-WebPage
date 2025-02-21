@@ -6,17 +6,20 @@ import NavItem from "./NavItem.astro";
 <script>
     let btn = document.getElementById("btn");
     let nav = document.getElementById("nav");
+    let header = document.getElementById("header");
 
     let open: boolean = false;
 
     function openNav() {
         console.log("Abrí la Nav");
         nav?.classList.add("open");
+        header?.classList.add("bg-black");
     }
 
     function closeNav() {
         console.log("cerré la nav xd");
         nav?.classList.remove("open");
+        header?.classList.remove("bg-black");
     }
 
     btn?.addEventListener("click", () => {
@@ -29,16 +32,16 @@ import NavItem from "./NavItem.astro";
 
 <!--? Mobile First | For some reason¿ -->
 <header class="">
-    <nav class="top-0 absolute fixed z-10 w-full md:static md:sticky ">
+    <nav id="header" class=" top-0 absolute fixed z-50 w-full h-screen md:static md:sticky ">
         <div
-            class="bg-white w-full flex flex-col shadow-neutral-800 shadow-2xl"
+            class=" w-full flex flex-col  z-50 "
         >
-            <button class="cursor-pointer p-1 m-1 self-end md:hidden" id="btn">
-                <i class="bi bi-list text-5xl text-black"></i>
+            <button class="cursor-pointer p-1 m-1  self-end md:hidden z-50" id="btn">
+                <i class="bi bi-list text-5xl text-white"></i>
             </button>
             <!--? -->
         </div>
-        <div id="nav" class="flex justify-center h-60 gap-10 bg-red-300 flex-col w-full md:open md:flex-row md:h-auto md:p-5  
+        <div id="nav" class=" duration-500 ease-in-out flex justify-center w-full h-auto p-5 gap-10 text-center flex-col w-5xl md:open md:flex-row md:h-auto   
         
         ">
             <NavItem icon="bi bi-house-heart" text="Home" url="#" />

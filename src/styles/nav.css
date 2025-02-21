@@ -1,7 +1,7 @@
 .open {
-    display: none;
+    visibility: hidden;
 }
 
 .close {
-    
+    visibility: visible;
 }
