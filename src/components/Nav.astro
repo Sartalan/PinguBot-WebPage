@@ -6,20 +6,20 @@ import NavItem from "./NavItem.astro";
 <script>
     let btn = document.getElementById("btn");
     let nav = document.getElementById("nav");
-    let header = document.getElementById("header");
+    let items = document.getElementById("items");
 
     let open: boolean = false;
 
     function openNav() {
-        console.log("Abrí la Nav");
-        nav?.classList.add("open");
-        header?.classList.add("bg-black");
+        console.log("OPEN");
+        nav?.classList.add("bg-black");
+        items?.classList.add("open");
     }
 
     function closeNav() {
-        console.log("cerré la nav xd");
-        nav?.classList.remove("open");
-        header?.classList.remove("bg-black");
+        console.log("CLOSE");
+        nav?.classList.remove("bg-black");
+        items?.classList.remove("open");
     }
 
     btn?.addEventListener("click", () => {
@@ -30,22 +30,23 @@ import NavItem from "./NavItem.astro";
     });
 </script>
 
-<!--? Mobile First | For some reason¿ -->
-<header class="">
-    <nav id="header" class=" top-0 absolute fixed z-50 w-full h-screen md:static md:sticky ">
-        <div
-            class=" w-full flex flex-col  z-50 "
-        >
-            <button class="cursor-pointer p-1 m-1  self-end md:hidden z-50" id="btn">
+<!--! NO TENGO LA MENOR PUTA IDEA QUE HICE ACÁ --><!--! SIMPLEMENTE NO ENTIENDO NADA --><!--? Mobile First | For some reason¿ -->
+<header>
+    <nav id="nav" class="top-0 fixed w-full h-screen md:h-auto md:static">
+        <!--? First Box -->
+        <div class="w-full flex flex-col">
+            <button class="cursor-pointer p-1 m-1 self-end md:hidden" id="btn">
                 <i class="bi bi-list text-5xl text-white"></i>
             </button>
             <!--? -->
         </div>
-        <div id="nav" class=" duration-500 ease-in-out flex justify-center w-full h-auto p-5 gap-10 text-center flex-col w-5xl md:open md:flex-row md:h-auto   
-        
-        ">
+        <!--? Second Box -->
+        <div
+            id="items"
+            class="flex flex-col justify-center w-full p-5 gap-10 text-center invisible md:visible md:open md:flex-row md:h-auto"
+        >
             <NavItem icon="bi bi-house-heart" text="Home" url="#" />
-            <NavItem icon="bi bi-robot" text="Project" url="#" />
+            <NavItem icon="bi bi-robot" text="Project" url="lol" />
             <NavItem icon="bi bi-house-heart" text="Home" url="#" />
         </div>
     </nav>
