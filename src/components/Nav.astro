@@ -1,19 +1,22 @@
 ---
-
+import "../styles/nav.css";
+import NavItem from "./NavItem.astro";
 ---
 
 <script>
     let btn = document.getElementById("btn");
+    let nav = document.getElementById("nav");
+
     let open: boolean = false;
 
     function openNav() {
         console.log("Abrí la Nav");
-        btn?.classList.add("puto");
+        nav?.classList.add("open");
     }
 
     function closeNav() {
         console.log("cerré la nav xd");
-        btn?.classList.remove("puto");
+        nav?.classList.remove("open");
     }
 
     btn?.addEventListener("click", () => {
@@ -24,24 +27,23 @@
     });
 </script>
 
-<header class="m-5">
-    <nav class="flex justify-around gap-5
-    
-    max-md:bg-blue-900">
-        <a href="#" class="nav-item hover:bg-violet-800"
-            >Home
-            <i class="bi bi-house-heart text-white text-2xl"></i>
-        </a>
-        <a href="/blog" class="nav-item hover:bg-violet-800">
-            Blog
-            <i class="bi bi-journal-code text-white text-2xl"></i>
-        </a>
-        <a href="/project" class="nav-item hover:bg-violet-800">
-            Project
-            <i class="bi bi-robot text-white text-2xl"></i>
-        </a>
-        <button class="md:hidden" id="btn">
-            <i class="bi bi-list text-white text-5xl"></i>
-        </button>
+<!--? Mobile First | For some reason¿ -->
+<header class="">
+    <nav class="top-0 absolute fixed z-10 w-full md:static md:sticky ">
+        <div
+            class="bg-white w-full flex flex-col shadow-neutral-800 shadow-2xl"
+        >
+            <button class="cursor-pointer p-1 m-1 self-end md:hidden" id="btn">
+                <i class="bi bi-list text-5xl text-black"></i>
+            </button>
+            <!--? -->
+        </div>
+        <div id="nav" class="flex justify-center h-60 gap-10 bg-red-300 flex-col w-full md:open md:flex-row md:h-auto md:p-5  
+        
+        ">
+            <NavItem icon="bi bi-house-heart" text="Home" url="#" />
+            <NavItem icon="bi bi-robot" text="Project" url="#" />
+            <NavItem icon="bi bi-house-heart" text="Home" url="#" />
+        </div>
     </nav>
 </header>
