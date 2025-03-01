@@ -2,11 +2,19 @@
 import "../styles/global.css";
 import Nav from "../components/Nav.astro";
 import KiCanvasComponent from "../components/KiCanvasComponent.astro";
+import CommonHeads from "../components/CommonHeads.astro";
 ---
 
-<div class="bg-black">
-  <Nav />
-</div>
-<div class="w-3xl h-3xl">
-  <KiCanvasComponent />
-</div>
+<html lang="en">
+  <head>
+    <CommonHeads />
+  </head>
+  <body class="bg-black">
+    <Nav />
+    <!--
+    <div class="w-3xl h-3xl">
+      KiCanvasComponent />    
+    </div>
+    -->
+  </body>
+</html>

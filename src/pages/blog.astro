@@ -1,11 +1,14 @@
 ---
 import Nav from "../components/Nav.astro";
 import "../styles/global.css";
+import CommonHeads from "../components/CommonHeads.astro";
 ---
 
-<div class="bg-black">
-    <Nav>
-
-    </Nav>
-    
-</div>
+<html lang="en">
+    <head>
+        <CommonHeads />
+    </head>
+    <body class="bg-black">
+        <Nav />
+    </body>
+</html>
