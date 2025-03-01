@@ -4,50 +4,50 @@ import NavItem from "./NavItem.astro";
 ---
 
 <script>
-    let btn = document.getElementById("btn");
-    let nav = document.getElementById("nav");
-    let items = document.getElementById("items");
+  let btn = document.getElementById("btn");
+  let nav = document.getElementById("nav");
+  let items = document.getElementById("items");
 
-    let open: boolean = false;
+  let open: boolean = false;
 
-    function openNav() {
-        console.log("OPEN");
-        nav?.classList.add("bg-black");
-        items?.classList.add("open");
-    }
+  function openNav() {
+    console.log("OPEN");
+    nav?.classList.add("bg-black");
+    items?.classList.add("open");
+  }
 
-    function closeNav() {
-        console.log("CLOSE");
-        nav?.classList.remove("bg-black");
-        items?.classList.remove("open");
-    }
+  function closeNav() {
+    console.log("CLOSE");
+    nav?.classList.remove("bg-black");
+    items?.classList.remove("open");
+  }
 
-    btn?.addEventListener("click", () => {
-        open = !open;
-        console.log(open);
+  btn?.addEventListener("click", () => {
+    open = !open;
+    console.log(open);
 
-        open == true ? closeNav() : openNav();
-    });
+    open == true ? closeNav() : openNav();
+  });
 </script>
 
 <!--! NO TENGO LA MENOR PUTA IDEA QUE HICE ACÁ --><!--! SIMPLEMENTE NO ENTIENDO NADA --><!--? Mobile First | For some reason¿ -->
 <header>
-    <nav id="nav" class="top-0 fixed w-full h-screen md:h-auto md:static">
-        <!--? First Box -->
-        <div class="w-full flex flex-col">
-            <button class="cursor-pointer p-1 m-1 self-end md:hidden" id="btn">
-                <i class="bi bi-list text-5xl text-white"></i>
-            </button>
-            <!--? -->
-        </div>
-        <!--? Second Box -->
-        <div
-            id="items"
-            class="flex flex-col justify-center w-full p-5 gap-10 text-center invisible md:visible md:open md:flex-row md:h-auto"
-        >
-            <NavItem icon="bi bi-house-heart" text="Home" url="#" />
-            <NavItem icon="bi bi-robot" text="Project" url="lol" />
-            <NavItem icon="bi bi-house-heart" text="Home" url="#" />
-        </div>
-    </nav>
+  <nav id="nav" class="top-0 fixed w-full h-screen md:h-auto md:static">
+    <!--? First Box -->
+    <div class="w-full flex flex-col">
+      <button class="cursor-pointer p-1 m-1 self-end md:hidden" id="btn">
+        <i class="bi bi-list text-5xl text-white"></i>
+      </button>
+      <!--? -->
+    </div>
+    <!--? Second Box -->
+    <div
+      id="items"
+      class="flex flex-col justify-center w-full p-5 gap-10 text-center invisible md:visible md:open md:flex-row md:h-auto"
+    >
+      <NavItem icon="bi bi-house-heart" text="Home" url="/" />
+      <NavItem icon="bi bi-journal" text="Blog" url="#" />
+      <NavItem icon="bi bi-robot" text="Project" url="project" />
+    </div>
+  </nav>
 </header>
