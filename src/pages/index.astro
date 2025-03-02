@@ -1,19 +1,17 @@
 ---
 import "../styles/global.css";
-import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
-import Home from "./home.astro";
 import CommonHeads from "../components/CommonHeads.astro";
+
+import Slug from "./[slug].astro";
 ---
 
 <html lang="en">
   <head>
-      <CommonHeads/>
+    <CommonHeads />
   </head>
 
   <body class="bg-black">
-    <Nav />
-    <Home />
-    <Footer />
+      <Slug/>
   </body>
 </html>

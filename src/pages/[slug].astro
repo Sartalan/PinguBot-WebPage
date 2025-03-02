@@ -1,0 +1,32 @@
+---
+export async function getStaticPaths() {
+    return [
+        { params: { slug: "blog" }, props: { type: "blog" } },
+        { params: { slug: "project" }, props: { type: "project" } },
+    ];
+}
+
+import Blog from '../content/blog.astro';
+import Home from '../content/home.astro';
+import Project from '../content/project.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro'
+const { type } = Astro.props;
+
+const content:string = ''
+
+
+---
+
+<Nav/>
+
+{
+
+ 
+}
+
+{type === "blog" ? <Blog /> : <h1>No hay nada</h1>}
+{type === "project" ? <Project /> : <h1>No hay nada</h1>}
+{typeof type ===  "undefined" ? <Home /> : <h1>No hay nada</h1>}
+
+<Footer />
