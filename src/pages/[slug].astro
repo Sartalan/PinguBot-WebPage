@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 import Blog from '../content/blog.astro';
 import Home from '../content/home.astro';
 import Project from '../content/project.astro';
-import Nav from '../components/Nav.astro';
+import {Nav} from '../components/Nav.jsx';
 import Footer from '../components/Footer.astro'
 const { type } = Astro.props;
 
@@ -18,7 +18,7 @@ const content:string = ''
 
 ---
 
-<Nav/>
+<Nav client:load />
 
 {
 
