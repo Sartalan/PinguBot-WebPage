@@ -14,9 +14,7 @@ export function Nav() {
   return (
     <header>
       <nav id="nav" class="w-full md:h-20">
-        <div
-          class={`w-full flex flex-col ${open == true ? "bg-red-400" : "bg-blue-400"}`}
-        >
+        <div class="w-full flex flex-col">
           <button
             onClick={Data}
             class="cursor-pointer p-1 m-1 self-end md:hidden"
@@ -27,7 +25,8 @@ export function Nav() {
         </div>
         <div
           id="bottom-nav"
-          class="flex flex-col justify-center items-center w-full h-0 md:text-center overflow-hidden gap-8 transition-all ease-in-out duration-300 md:visible md:flex-row md:h-full"
+          class={`flex flex-col justify-center items-center w-full ${open == true ? "h-72" : "h-0"} md:text-center overflow-hidden gap-8 transition-all 
+          ease-in-out duration-300 md:visible md:flex-row md:h-full`}
         >
           <NavItem icon="bi bi-house-heart" text="Home" url="/" />
           <NavItem icon="bi bi-journal" text="Blog" url="blog" />

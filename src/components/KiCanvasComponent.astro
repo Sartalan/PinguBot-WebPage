@@ -1,6 +1,23 @@
 ---
+async function getData(){
+  
+try {
+    const data = await fetch("https://github.com/Sartalan/My-PinguBot/blob/main/Circuit%20-%20KiCad/PinguBot/PinguBot.kicad_pcb", {
 
+    } );
+  const lol = await data.json();
+    return lol;
+  }
+
+  catch(err) {
+    return err;
+  }
+
+}
+
+getData()
 ---
+
 
 <script is:inline type="module" src="/kicanvas.js"></script>
 <kicanvas-embed
