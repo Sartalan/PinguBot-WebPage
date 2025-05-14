@@ -1,18 +1,19 @@
 ---
 import { Image } from "astro:assets";
+import penguin_img from "../../src/penguin-16.svg"
 ---
 
-<main class="">
-    <section>
+<main class="p-5">
+  <section class="">
       <!--* { ----HauptContent--- } -->
       <article
-        class="flex justify-between items-center p-5
-              max-sm:flex-col max-sm:items-center"
+        class="flex justify-between items-start p-5 md:p-16
+      max-sm:flex-col max-sm:items-center "
       >
         <!-- TODO: Logo Pingubot -->
         <div class="">
           <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuEEoZ9bfO0kSXaIic5NFpGHRHLAwrD31IA&s"
+          src={penguin_img}
             alt=""
             width={75}
             height={75}
@@ -32,10 +33,9 @@ import { Image } from "astro:assets";
           </p>
         </div>
       </article>
-      <hr class="h-1 bg-amber-700" />
       <!--* { ---- Content --- } -->
-      <article class="flex flex-col">
-        <div class="one p-5">
+    <article class="flex flex-col md:h-screen">
+        <div class="one p-5 md:w-2/4">
           <h2 class="font-bold m-1.5 text-4xl italic text-white">¿Why?</h2>
           <p class="text-pretty text-white text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
@@ -45,7 +45,7 @@ import { Image } from "astro:assets";
             minus!
           </p>
         </div>
-        <div class="two p-5">
+      <div class="two p-5 md:w-2/4 self-end">
           <h2 class="font-bold m-1.5 text-4xl italic text-white">Me</h2>
           <p class="text-pretty text-white text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
@@ -56,12 +56,12 @@ import { Image } from "astro:assets";
           </p>
         </div>
       </article>
-      <!--* If you want... -->
-      <hr class="h-1 bg-amber-700" />
+ 
+    <!--* If you want... -->
 
-      <article>
+      <article class="h-screen flex justify-center flex-col ">
         <h2 class="font-bold m-1.5 text-4xl italic text-white text-center">
-          If for some reason...
+          If for some reason you want to...
         </h2>
 
         <div class="flex justify-center items-center">

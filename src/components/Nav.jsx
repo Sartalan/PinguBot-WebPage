@@ -28,9 +28,9 @@ export function Nav() {
           class={`flex flex-col justify-center items-center w-full ${open == true ? "h-72" : "h-0"} md:text-center overflow-hidden gap-8 transition-all 
           ease-in-out duration-300 md:visible md:flex-row md:h-full`}
         >
-          <NavItem icon="bi bi-house-heart" text="Home" url="/" />
-          <NavItem icon="bi bi-journal" text="Blog" url="blog" />
-          <NavItem icon="bi bi-robot" text="Project" url="project" />
+          <NavItem icon="bi bi-house-heart" text="Home " url="/" />
+          <NavItem icon="bi bi-journal" text="Blog " url="blog" />
+          <NavItem icon="bi bi-robot" text="Project " url="project" />
         </div>
       </nav>
     </header>
