@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import penguin_img from "../../src/penguin-16.svg"
+import penguin_img from "../assets/penguin-16.svg"
+import kofi_img from "../assets/support_me_on_kofi_badge_beige.png" 
 ---
 
 <main class="p-5">
@@ -9,7 +10,9 @@ import penguin_img from "../../src/penguin-16.svg"
       <article
         class="flex justify-between items-start p-5 md:p-16
       max-sm:flex-col max-sm:items-center "
-      >
+    >
+
+
         <!-- TODO: Logo Pingubot -->
         <div class="">
           <Image
@@ -25,34 +28,37 @@ import penguin_img from "../../src/penguin-16.svg"
           class="p-2.5 flex flex-col justify-around flex-1 min-w-10 flex-wrap"
         >
           <h2 class="font-bold m-1.5 text-4xl italic text-white">PinguBot</h2>
-          <p class="text-pretty text-white text-2xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            officia impedit nostrum mollitia reiciendis id esse? Cum maiores
-            atque nulla hic rerum. Nam perferendis ullam vel laboriosam, animi
-            explicabo nemo!
+        <p class="text-pretty text-white text-2xl">
+          A penguin-shape robot with AI integrated and Robot Operating System (ROS).
+          Or... That is the goal; for the moment this is only one circuit and a lot of -aparrently- nonsense diagrams.
           </p>
         </div>
-      </article>
+    </article>
+
+    <Image src="https://camo.githubusercontent.com/73b17c1e78f3d4fa781edecb97fad2d846aa9b4bf4575173b61f8e39285ccbb6/68747470733a2f2f696d616765732d7769786d702d6564333061383662386334636138383737373335393463322e7769786d702e636f6d2f662f63353035643239622d616462332d343332622d386637322d6262653830643239356266632f643239727634372d38326133383236392d356665302d343337362d613132392d6130613836306162303461332e706e672f76312f66696c6c2f775f3234302c685f34302f706167655f646976696465725f62795f6c69746869756d6861726464726976655f643239727634372d66756c6c766965772e706e673f746f6b656e3d65794a30655841694f694a4b563151694c434a68624763694f694a49557a49314e694a392e65794a7a645749694f694a31636d3436595842774f6a646c4d4751784f4467354f4449794e6a517a4e7a4e684e5759775a4451784e5756684d4751794e6d55774969776961584e7a496a6f6964584a754f6d467763446f335a54426b4d5467344f5467794d6a59304d7a637a5954566d4d4751304d54566c5954426b4d6a5a6c4d434973496d39696169493657317437496d686c6157646f64434936496a77394e4441694c434a775958526f496a6f695843396d5843396a4e5441315a444935596931685a47497a4c54517a4d6d49744f4759334d693169596d55344d4751794f5456695a6d4e634c3251794f584a324e4463744f444a684d7a67794e6a6b744e575a6c4d4330304d7a63324c5745784d6a6b74595442684f445977595749774e47457a4c6e42755a794973496e64705a48526f496a6f69504430794e444169665631644c434a68645751694f6c736964584a754f6e4e6c636e5a7059325536615731685a3255756233426c636d46306157397563794a6466512e547a4644436f7452786b353446336b375f7479653967656431342d6f54424b7233475150534f34654d5241"
+      alt="lol"
+      width={100}
+      height={100}
+      class="w-75 m-auto"
+    >
+
+    </Image>
       <!--* { ---- Content --- } -->
     <article class="flex flex-col md:h-screen">
         <div class="one p-5 md:w-2/4">
           <h2 class="font-bold m-1.5 text-4xl italic text-white">¿Why?</h2>
-          <p class="text-pretty text-white text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            voluptatum minima quaerat explicabo voluptates quibusdam
-            repellendus, ipsa hic dolorem numquam est recusandae autem
-            exercitationem inventore reprehenderit voluptatibus nisi possimus
-            minus!
-          </p>
+          <p class="text-pretty text-white text-2xl font-bold">
+          The first reason: Because I can and I'm bored.
+        </p>
+        <p class="text-pretty text-white text-2xl">
+          The second reason: Because I'm really apassionate about Robots and Penguins, so...
+          I decided to build my own one! And I'm here. 
+        </p>
         </div>
       <div class="two p-5 md:w-2/4 self-end">
           <h2 class="font-bold m-1.5 text-4xl italic text-white">Me</h2>
           <p class="text-pretty text-white text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            voluptatum minima quaerat explicabo voluptates quibusdam
-            repellendus, ipsa hic dolorem numquam est recusandae autem
-            exercitationem inventore reprehenderit voluptatibus nisi possimus
-            minus!
+          Hi! It's Alan's time! I'll introduce myself: I'm a Electronic Technician and a Systems Student with a lot of free time who wants to make his own personal robot!
           </p>
         </div>
       </article>
@@ -66,13 +72,18 @@ import penguin_img from "../../src/penguin-16.svg"
 
         <div class="flex justify-center items-center">
           <a
-            class="text-center text-white text-3xl p-5 m-10 hover:bg-red-300 h rounded"
+            class="text-center text-white text-3xl p-5 m-10 hover:bg-red-300 rounded"
             href="#"
-          >
-            Buy me a coffee
+        >
 
-            <i class="bi bi-cup-hot-fill text-white text-5xl"></i>
-          </a>
+
+          <Image src={kofi_img}
+      alt="lol"
+      class="w-50 m-auto"
+    >
+
+    </Image>
+         </a>
         </div>
       </article>
     </section>
