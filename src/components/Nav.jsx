@@ -3,17 +3,18 @@ import { useState } from "preact/hooks";
 export function Nav() {
   const [open, setOpen] = useState(false);
 
+
   function Data() {
     setOpen(!open);
 
     open == true
-      ? console.log("Es verdadero: ", open)
+      ? console.log("Es verdadero: ", open) 
       : console.log("Es falso: ", open);
   }
 
   return (
     <header>
-      <nav id="nav" class="w-full md:h-20">
+      <nav id="nav" class="w-full md:h-16">
         <div class="w-full flex flex-col">
           <button
             onClick={Data}
@@ -41,7 +42,7 @@ function NavItem({ url, icon, text }) {
   return (
     <a
       href={url}
-      class="text-white cursor-pointer w-fit  h-auto  text-start md:text-center text-3xl hover:text-black md:p-5 md:hover:bg-amber-50"
+      class="text-white cursor-pointer w-fit  h-auto  text-start md:text-center font-bold text-2xl hover:text-black md:p-5 md:hover:bg-amber-50"
     >
       {text}
       <i class={`${icon}`}></i>

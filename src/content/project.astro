@@ -3,7 +3,8 @@ import "../styles/global.css";
 import Nav from "../components/Nav.astro";
 import KiCanvasComponent from "../components/KiCanvasComponent.astro";
 import CommonHeads from "../components/CommonHeads.astro";
-
+import FooterItem from "../components/FooterItem.astro";
+import Model from "../components/Model.astro"
 ---
 
 <html lang="en">
@@ -18,9 +19,25 @@ import CommonHeads from "../components/CommonHeads.astro";
       I'll collect and show you all the files from the project! 
     </p>
 
-    <div class=" p-20 bg-transparent">
-      <KiCanvasComponent />    
+    <hr class="m-5 invisible">
+    <div class="flex justify-center">
+      <div class="w-2/3 bg-transparent">
+        <h3 class="text-white text-4xl font-bold text-center p-5">PCB - PinguBot</h3>
+        <KiCanvasComponent />    
+      </div>
     </div>
+
+    <hr class="m-5 invisible">
+    <div class="flex justify-center">
+      <div class="w-2/3 bg-transparent">
+        <h3 class="text-white text-4xl font-bold text-center p-5">Model - PinguBot</h3>
+        <Model/>
+      </div>
+    </div>
+ 
+   
+
+
   
   </body>
 </html>
