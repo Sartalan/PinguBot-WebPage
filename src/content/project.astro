@@ -4,7 +4,7 @@ import Nav from "../components/Nav.astro";
 import KiCanvasComponent from "../components/KiCanvasComponent.astro";
 import CommonHeads from "../components/CommonHeads.astro";
 import FooterItem from "../components/FooterItem.astro";
-import Model from "../components/Model.astro"
+import {Model} from "../components/Model.jsx"
 ---
 
 <html lang="en">
@@ -31,7 +31,7 @@ import Model from "../components/Model.astro"
     <div class="flex justify-center">
       <div class="w-2/3 bg-transparent">
         <h3 class="text-white text-4xl font-bold text-center p-5">Model - PinguBot</h3>
-        <Model/>
+        <Model client:only='react'/>
       </div>
     </div>
  

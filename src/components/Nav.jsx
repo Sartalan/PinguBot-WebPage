@@ -3,12 +3,11 @@ import { useState } from "preact/hooks";
 export function Nav() {
   const [open, setOpen] = useState(false);
 
-
   function Data() {
     setOpen(!open);
 
     open == true
-      ? console.log("Es verdadero: ", open) 
+      ? console.log("Es verdadero: ", open)
       : console.log("Es falso: ", open);
   }
 

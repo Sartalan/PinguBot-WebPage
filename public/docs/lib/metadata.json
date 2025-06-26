@@ -1,0 +1,418 @@
+{
+  "vaultName": "Docs - PinguBot Page",
+  "lastExport": 1750950123394,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon callout-on kanban-full kanban-same-height-cards kanban-full-height-column",
+  "useCustomHeadContent": true,
+  "useCustomFavicon": false,
+  "files": [
+    "Assets/Applications/doc-esp32-pinout-reference-wroom-devkit.png",
+    "Assets/Applications/LM386 - Applications.png",
+    "Assets/Applications/TSOP4830 - Application.png",
+    "Assets/Charts/Hardware.excalidraw",
+    "Assets/Charts/Website.excalidraw",
+    "Assets/Circuit/PinguBot.kicad_pcb",
+    "Assets/Models/0.4mm_Type1.stl",
+    "Blog/1. Blog.md",
+    "Blog/2025-06-25.md",
+    "Excalidraw/Drawing 2025-06-26 11.07.32.excalidraw.md",
+    "Excalidraw/Drawing 2025-06-26 11.07.37.excalidraw.md",
+    "Hardware/Modules/Audio Amplifier.md",
+    "Hardware/Modules/Charge Controller.md",
+    "Hardware/Modules/IR Emisor I Receiver.md",
+    "Hardware/Modules/Power Supply.md",
+    "Hardware/1. Hardware docs.md",
+    "Hardware/Components.md",
+    "Software/1. Software docs.md",
+    "Main.canvas",
+    "lib/media/lm386-applications.png",
+    "lib/media/tsop4830-application.png",
+    "lib/media/doc-esp32-pinout-reference-wroom-devkit.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 25744,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1750947122168,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 1045,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 138258,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1750947030433,
+      "sourceSize": 969,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 262,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 29047,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "Assets/Applications/doc-esp32-pinout-reference-wroom-devkit.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 637780,
+      "exportedPath": "assets/applications/doc-esp32-pinout-reference-wroom-devkit.png",
+      "dependencies": []
+    },
+    "Assets/Applications/LM386 - Applications.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 61035,
+      "exportedPath": "assets/applications/lm386-applications.png",
+      "dependencies": []
+    },
+    "Assets/Applications/TSOP4830 - Application.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 33509,
+      "exportedPath": "assets/applications/tsop4830-application.png",
+      "dependencies": []
+    },
+    "Assets/Charts/Hardware.excalidraw": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 55632,
+      "exportedPath": "assets/charts/hardware.html",
+      "dependencies": []
+    },
+    "Assets/Charts/Website.excalidraw": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 32137,
+      "exportedPath": "assets/charts/website.html",
+      "dependencies": []
+    },
+    "Assets/Circuit/PinguBot.kicad_pcb": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 321245,
+      "exportedPath": "assets/circuit/pingubot.kicad_pcb",
+      "dependencies": []
+    },
+    "Assets/Models/0.4mm_Type1.stl": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 2364484,
+      "exportedPath": "assets/models/0.4mm_type1.stl",
+      "dependencies": []
+    },
+    "Blog/1. Blog.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 80,
+      "exportedPath": "blog/1.-blog.html",
+      "dependencies": []
+    },
+    "Blog/2025-06-25.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 34,
+      "exportedPath": "blog/2025-06-25.html",
+      "dependencies": []
+    },
+    "Hardware/Modules/Audio Amplifier.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 2467,
+      "exportedPath": "hardware/modules/audio-amplifier.html",
+      "dependencies": [
+        "lib/media/lm386-applications.png"
+      ]
+    },
+    "Hardware/Modules/Charge Controller.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 212,
+      "exportedPath": "hardware/modules/charge-controller.html",
+      "dependencies": []
+    },
+    "Hardware/Modules/IR Emisor I Receiver.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 735,
+      "exportedPath": "hardware/modules/ir-emisor-i-receiver.html",
+      "dependencies": [
+        "lib/media/tsop4830-application.png"
+      ]
+    },
+    "Hardware/Modules/Power Supply.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 24,
+      "exportedPath": "hardware/modules/power-supply.html",
+      "dependencies": []
+    },
+    "Hardware/1. Hardware docs.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 69,
+      "exportedPath": "hardware/1.-hardware-docs.html",
+      "dependencies": []
+    },
+    "Hardware/Components.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 1895,
+      "exportedPath": "hardware/components.html",
+      "dependencies": [
+        "lib/media/doc-esp32-pinout-reference-wroom-devkit.png"
+      ]
+    },
+    "Software/1. Software docs.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 36,
+      "exportedPath": "software/1.-software-docs.html",
+      "dependencies": []
+    },
+    "lib/media/lm386-applications.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 61035,
+      "exportedPath": "lib/media/lm386-applications.png",
+      "dependencies": []
+    },
+    "lib/media/tsop4830-application.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 33509,
+      "exportedPath": "lib/media/tsop4830-application.png",
+      "dependencies": []
+    },
+    "lib/media/doc-esp32-pinout-reference-wroom-devkit.png": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 637780,
+      "exportedPath": "lib/media/doc-esp32-pinout-reference-wroom-devkit.png",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-06-26 11.07.32.excalidraw.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 570,
+      "exportedPath": "excalidraw/drawing-2025-06-26-11.07.32.excalidraw.html",
+      "dependencies": []
+    },
+    "Excalidraw/Drawing 2025-06-26 11.07.37.excalidraw.md": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 1371,
+      "exportedPath": "excalidraw/drawing-2025-06-26-11.07.37.excalidraw.html",
+      "dependencies": []
+    },
+    "Main.canvas": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 268,
+      "exportedPath": "main.html",
+      "dependencies": []
+    },
+    "lib/html/custom-head-content.html": {
+      "modifiedTime": 1750950123394,
+      "sourceSize": 946,
+      "exportedPath": "lib/html/custom-head-content.html",
+      "dependencies": []
+    }
+  }
+}
