@@ -11,5 +11,7 @@ export default defineConfig({
   },
 
   integrations: [preact()],
+  site: 'https://github.com/Sartalan/PinguBot-WebPage',
+  base: '/PinguBot-WebPage',
 });
 

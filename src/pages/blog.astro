@@ -1,0 +1,32 @@
+---
+import Nav from "../components/Nav.astro";
+import "../styles/global.css";
+import Layout from "../layout/layout.astro"
+---
+<Layout>
+    <main class="bg-black">
+    <h1 class="text-white text-2xl text-center p-10 font-bold">Blog Component</h1>
+
+      
+    <p class="text-pretty text-white text-2xl text-center p-5">
+      I'll be the docfiles! But for now, I'm a blank page
+    </p>
+
+    <div class="flex justify-center">
+      <p class="text-pretty text-white text-2xl text-center p-5 w-3/4 md:w-[50%]">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas voluptatum esse iure blanditiis quo exercitationem ipsam quos doloremque eveniet, dolor similique magnam deserunt iusto nemo odio non fugiat at cum maiores? Officiis illo iusto quidem odio ipsum, provident obcaecati error.
+      </p>
+    </div>
+    <div class="flex justify-center ">
+      <a href="./docs/blog/1.-blog.html"  class="m-5 p-5 bg-red-300 text-black font-semibold text-4xl rounded ease duration-100 hover:bg-blue-400 "> Hi! I'm the docs ^^</a>
+    </div>
+
+<hr class="m-10 invisible" />
+<div class="flex justify-center">
+      <p class="text-center w-4/5 md:w-[70%]">
+        The docs are the current Obsidian Vault that I use to write and take note from all my choices and why. The "Docs WebPage" was made with the Obsidian Plugin <a href="https://forum.obsidian.md/t/html-export-plugin/51743" target="_blank" class=" border-b-blue-300 border-b-2 border-solid hover:text-violet-400" >HTML export plugin</a>
+      </p>
+    </div>
+
+    </main>
+</Layout>

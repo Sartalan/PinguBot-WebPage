@@ -1,0 +1,35 @@
+---
+import "../styles/global.css";
+import Nav from "../components/Nav.astro";
+import KiCanvasComponent from "../components/KiCanvasComponent.astro";
+import CommonHeads from "../components/CommonHeads.astro";
+import FooterItem from "../components/FooterItem.astro";
+import {Model} from "../components/Model.jsx"
+import Layout from "../layout/layout.astro"
+---
+
+<Layout>
+  <main class="bg-black">
+      <h1 class="text-white text-2xl text-center p-10 font-bold">Project Component</h1>
+
+      <p class="text-pretty text-white text-2xl text-center p-5">
+        I'll collect and show you all the files from the project! 
+      </p>
+
+      <hr class="m-5 invisible">
+      <div class="flex justify-center">
+        <div class="w-2/3 bg-transparent">
+          <h3 class="text-white text-4xl font-bold text-center p-5">PCB - PinguBot</h3>
+          <KiCanvasComponent />    
+        </div>
+      </div>
+
+      <hr class="m-5 invisible">
+      <div class="flex justify-center">
+        <div class="w-2/3 bg-transparent">
+          <h3 class="text-white text-4xl font-bold text-center p-5">Model - PinguBot</h3>
+          <Model client:only='react'/>
+        </div>
+      </div>
+  </main>
+</Layout>
