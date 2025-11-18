@@ -1,0 +1,576 @@
+{
+  "vaultName": "PinguBot ",
+  "lastExport": 1763451036598,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon callout-on kanban-full kanban-same-height-cards",
+  "useCustomHeadContent": true,
+  "useCustomFavicon": false,
+  "files": [
+    "PinguBot/1. Docs Webpage/Blog/1. Blog.md",
+    "PinguBot/1. Docs Webpage/Blog/2025-07-01.md",
+    "PinguBot/1. Docs Webpage/Blog/2025-11-18.md",
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Audio Amplifier.md",
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Charge Controller.md",
+    "PinguBot/1. Docs Webpage/Hardware/Modules/IR Emisor I Receiver.md",
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Power Supply.md",
+    "PinguBot/1. Docs Webpage/Hardware/1. Hardware docs.md",
+    "PinguBot/1. Docs Webpage/Hardware/Components.md",
+    "PinguBot/1. Docs Webpage/Software/1. Software docs.md",
+    "PinguBot/V1/Assets/Applications/doc-esp32-pinout-reference-wroom-devkit.png",
+    "PinguBot/V1/Assets/Applications/LM386 - Applications.png",
+    "PinguBot/V1/Assets/Applications/TSOP4830 - Application.png",
+    "PinguBot/V1/Assets/Charts/Hardware.svg",
+    "PinguBot/V1/Assets/Charts/Hardware.excalidraw",
+    "PinguBot/V1/Assets/Charts/Pingubot sketch.svg",
+    "PinguBot/V1/Assets/Charts/Website.svg",
+    "PinguBot/V1/Assets/Models/Pingubot sketch.md",
+    "PinguBot/V1/Assets/PinguBot.kicad_pcb",
+    "PinguBot/V1/Hardware/Components/Components.md",
+    "PinguBot/V1/Hardware/Datasheets/DRV8833.pdf",
+    "PinguBot/V1/Hardware/Datasheets/esp32-wroom-32.pdf",
+    "PinguBot/V1/Hardware/Datasheets/LM386.pdf",
+    "PinguBot/V1/Hardware/Datasheets/LM7805.PDF",
+    "PinguBot/V1/Hardware/Datasheets/MCP73831.pdf",
+    "PinguBot/V1/Hardware/Datasheets/TSOP4830.PDF",
+    "PinguBot/V1/Hardware/Modules/Audio Amplifier.md",
+    "PinguBot/V1/Hardware/Modules/Charge Controller.md",
+    "PinguBot/V1/Hardware/Modules/Custom Microcontroller.md",
+    "PinguBot/V1/Hardware/Modules/IR Emisor I Receiver.md",
+    "PinguBot/V1/Hardware/Modules/Power Supply.md",
+    "PinguBot/V1/Hardware/Modules/Sin título.md",
+    "PinguBot/V1/Hardware/Device.md",
+    "PinguBot/V1/Hardware/Hardware.md",
+    "PinguBot/V1/Software/Software.md",
+    "PinguBot/V1/Tareas I V1.md",
+    "PinguBot/Main I PinguBot.canvas",
+    "lib/media/lm386-applications.png",
+    "lib/media/tsop4830-application.png",
+    "lib/media/doc-esp32-pinout-reference-wroom-devkit.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/293fd13dbca5a3e450ef.woff2",
+    "lib/fonts/085cb93e613ba3d40d2b.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/293fd13dbca5a3e450ef.woff2",
+    "lib/fonts/085cb93e613ba3d40d2b.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/6155340132a851f6089e.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "PinguBot/1. Docs Webpage/Blog/1. Blog.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 84,
+      "exportedPath": "pingubot/1.-docs-webpage/blog/1.-blog.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Blog/2025-07-01.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 4444,
+      "exportedPath": "pingubot/1.-docs-webpage/blog/2025-07-01.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Blog/2025-11-18.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 5147,
+      "exportedPath": "pingubot/1.-docs-webpage/blog/2025-11-18.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Audio Amplifier.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1706,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/modules/audio-amplifier.html",
+      "dependencies": [
+        "lib/media/lm386-applications.png"
+      ]
+    },
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Charge Controller.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 138,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/modules/charge-controller.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Hardware/Modules/IR Emisor I Receiver.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 666,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/modules/ir-emisor-i-receiver.html",
+      "dependencies": [
+        "lib/media/tsop4830-application.png"
+      ]
+    },
+    "PinguBot/1. Docs Webpage/Hardware/Modules/Power Supply.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 150,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/modules/power-supply.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Hardware/1. Hardware docs.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 103,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/1.-hardware-docs.html",
+      "dependencies": []
+    },
+    "PinguBot/1. Docs Webpage/Hardware/Components.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1199,
+      "exportedPath": "pingubot/1.-docs-webpage/hardware/components.html",
+      "dependencies": [
+        "lib/media/doc-esp32-pinout-reference-wroom-devkit.png"
+      ]
+    },
+    "PinguBot/1. Docs Webpage/Software/1. Software docs.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 36,
+      "exportedPath": "pingubot/1.-docs-webpage/software/1.-software-docs.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Applications/doc-esp32-pinout-reference-wroom-devkit.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 637780,
+      "exportedPath": "pingubot/v1/assets/applications/doc-esp32-pinout-reference-wroom-devkit.png",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Applications/LM386 - Applications.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 61035,
+      "exportedPath": "pingubot/v1/assets/applications/lm386-applications.png",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Applications/TSOP4830 - Application.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 33509,
+      "exportedPath": "pingubot/v1/assets/applications/tsop4830-application.png",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Charts/Hardware.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 173189,
+      "exportedPath": "pingubot/v1/assets/charts/hardware.svg",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Charts/Hardware.excalidraw": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 55575,
+      "exportedPath": "pingubot/v1/assets/charts/hardware.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Charts/Pingubot sketch.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1683448,
+      "exportedPath": "pingubot/v1/assets/charts/pingubot-sketch.svg",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Charts/Website.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 30843,
+      "exportedPath": "pingubot/v1/assets/charts/website.svg",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/Models/Pingubot sketch.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 687813,
+      "exportedPath": "pingubot/v1/assets/models/pingubot-sketch.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Assets/PinguBot.kicad_pcb": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 321245,
+      "exportedPath": "pingubot/v1/assets/pingubot.kicad_pcb",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Components/Components.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1199,
+      "exportedPath": "pingubot/v1/hardware/components/components.html",
+      "dependencies": [
+        "lib/media/doc-esp32-pinout-reference-wroom-devkit.png"
+      ]
+    },
+    "PinguBot/V1/Hardware/Datasheets/DRV8833.pdf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 973201,
+      "exportedPath": "pingubot/v1/hardware/datasheets/drv8833.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Datasheets/esp32-wroom-32.pdf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 423321,
+      "exportedPath": "pingubot/v1/hardware/datasheets/esp32-wroom-32.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Datasheets/LM386.pdf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 266422,
+      "exportedPath": "pingubot/v1/hardware/datasheets/lm386.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Datasheets/LM7805.PDF": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 236554,
+      "exportedPath": "pingubot/v1/hardware/datasheets/lm7805.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Datasheets/MCP73831.pdf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 889186,
+      "exportedPath": "pingubot/v1/hardware/datasheets/mcp73831.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Datasheets/TSOP4830.PDF": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 164293,
+      "exportedPath": "pingubot/v1/hardware/datasheets/tsop4830.pdf",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Modules/Audio Amplifier.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1706,
+      "exportedPath": "pingubot/v1/hardware/modules/audio-amplifier.html",
+      "dependencies": [
+        "lib/media/lm386-applications.png"
+      ]
+    },
+    "PinguBot/V1/Hardware/Modules/Charge Controller.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 138,
+      "exportedPath": "pingubot/v1/hardware/modules/charge-controller.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Modules/Custom Microcontroller.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 667,
+      "exportedPath": "pingubot/v1/hardware/modules/custom-microcontroller.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Modules/IR Emisor I Receiver.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 666,
+      "exportedPath": "pingubot/v1/hardware/modules/ir-emisor-i-receiver.html",
+      "dependencies": [
+        "lib/media/tsop4830-application.png"
+      ]
+    },
+    "PinguBot/V1/Hardware/Modules/Power Supply.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 0,
+      "exportedPath": "pingubot/v1/hardware/modules/power-supply.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Modules/Sin título.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 0,
+      "exportedPath": "pingubot/v1/hardware/modules/sin-título.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Device.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 50,
+      "exportedPath": "pingubot/v1/hardware/device.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Hardware/Hardware.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 217,
+      "exportedPath": "pingubot/v1/hardware/hardware.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Software/Software.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 0,
+      "exportedPath": "pingubot/v1/software/software.html",
+      "dependencies": []
+    },
+    "PinguBot/V1/Tareas I V1.md": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 814,
+      "exportedPath": "pingubot/v1/tareas-i-v1.html",
+      "dependencies": []
+    },
+    "PinguBot/Main I PinguBot.canvas": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 710,
+      "exportedPath": "pingubot/main-i-pingubot.html",
+      "dependencies": [
+        "pingubot/v1/assets/charts/website.svg",
+        "pingubot/v1/assets/charts/hardware.svg",
+        "pingubot/v1/assets/charts/pingubot-sketch.svg"
+      ]
+    },
+    "lib/media/lm386-applications.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 61035,
+      "exportedPath": "lib/media/lm386-applications.png",
+      "dependencies": []
+    },
+    "lib/media/tsop4830-application.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 33509,
+      "exportedPath": "lib/media/tsop4830-application.png",
+      "dependencies": []
+    },
+    "lib/media/doc-esp32-pinout-reference-wroom-devkit.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 637780,
+      "exportedPath": "lib/media/doc-esp32-pinout-reference-wroom-devkit.png",
+      "dependencies": []
+    },
+    "pingubot/v1/assets/charts/website.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 30843,
+      "exportedPath": "pingubot/v1/assets/charts/website.svg",
+      "dependencies": []
+    },
+    "pingubot/v1/assets/charts/hardware.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 173189,
+      "exportedPath": "pingubot/v1/assets/charts/hardware.svg",
+      "dependencies": []
+    },
+    "pingubot/v1/assets/charts/pingubot-sketch.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1683448,
+      "exportedPath": "pingubot/v1/assets/charts/pingubot-sketch.svg",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/293fd13dbca5a3e450ef.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 105924,
+      "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/085cb93e613ba3d40d2b.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 112184,
+      "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 45796,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/html/custom-head-content.html": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1306,
+      "exportedPath": "lib/html/custom-head-content.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 1962,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 171802,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 29047,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 262,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1763451036598,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    }
+  }
+}
